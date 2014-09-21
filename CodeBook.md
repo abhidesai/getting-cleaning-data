@@ -46,4 +46,4 @@ The variables extracted from this database was the subject who performed the act
     * mean - mean for the sliding window of samples.
     * std - standard deviation for the sliding window of samples.
     * magnitude - Magnitude of the three-dimensional signals were calculated using the Euclidean norm.
-    
+    * All values are normalized between -1 and 1.
