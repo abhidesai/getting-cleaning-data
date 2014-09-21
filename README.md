@@ -63,7 +63,7 @@ When sourced, the script performs the following set of actions.
   * std - std
   * mean - mean
 
-Refer code book for column names
+    Refer code book for column names
 
 7. (STEP 5) - The script uses the aggregate function with FUN=mean to compute the mean of each column against each activity and subject.
 
