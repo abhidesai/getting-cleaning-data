@@ -25,6 +25,7 @@ After runing the run_analysis.R on output with following varible names and forma
 
 The data and the experiment details can be obtained from 
 [link 1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Refer to the README and features_info.txt files for details of how the data was collected.
 
 ###Variables
 
