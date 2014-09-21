@@ -96,6 +96,8 @@ names(sub_data) <- sub.names
 ## STEP 5 - "From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject."
 # Compute the mean per activity and subject
 tidy_data <- aggregate(.~activity+subject, data=sub_data, FUN=mean)
+tidy_data <- tidy_data[,names(sub_data)]
 
 ## Write the output to tidy data text file.
 write.table(tidy_data, "uci-har-tidy-data.txt", row.names=FALSE)
+
