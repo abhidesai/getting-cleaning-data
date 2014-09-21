@@ -28,18 +28,19 @@ In general X refers to observation data, y refers to the corresponding activity 
 
 ### run_analysis.R
 When sourced, the script performs the following set of actions.
+
 1. Get the data.
-* Download the zip file from the datasource.
-* Unzip it to the present working directory.
+  Download the zip file from the datasource.
+  Unzip it to the present working directory.
 
 2. Load the tables
-* Read the feature names and convert them to a form which can be used as R column names. The original names contain characters like () and - which are not permitted as column names.
-* Read activity labels to memory.
-* Read X,y and subject values for training and test data. X uses the feature names as column names.
+  Read the feature names and convert them to a form which can be used as R column names. The original names contain characters like () and - which are not permitted as column names.
+  Read activity labels to memory.
+  Read X,y and subject values for training and test data. X uses the feature names as column names.
 
 3. (STEP 1) Combine tables
-* combine X, subject and y by binding against the columns. This is done separately for trainig and test data.
-* Append test data to training data and create a new union data set.
+  combine X, subject and y by binding against the columns. This is done separately for trainig and test data.
+  Append test data to training data and create a new union data set.
 
 4. (STEP 2) Create a subset of the data by extracting only the columns which contain the column names ".mean." and ".std."
 5. (STEP 3) Add descriptive activity labels to the data set.
