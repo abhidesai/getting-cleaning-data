@@ -44,24 +44,24 @@ When sourced, the script performs the following set of actions.
 
 4. (STEP 2) Create a subset of the data by extracting only the columns which contain the column names ".mean." and ".std."
 5. (STEP 3) Add descriptive activity labels to the data set.
-* Convert the activity numbers to factors.
-* Replace the factor levels with the activity names from activity_labels.txt
-* lower case all the activity names and replace the "_" with " ".
-* Convert the first character of every word to upper case.
+  Convert the activity numbers to factors.
+  Replace the factor levels with the activity names from activity_labels.txt
+  lower case all the activity names and replace the "_" with " ".
+  Convert the first character of every word to upper case.
 
 6. (STEP 4) The column names are converted to a readable form by substituting as shown below. Each of the words is separated by a dot and all words are in lowecase.
 
-* t - time
-* f - freq
-* BodyBody - body
-* Body - body
-* Acc - accl
-* Gyro - gyro
-* Gravity - gravity
-* Mag - magnitude
-* Jerk - jerk
-* std - std
-* mean - mean
+  * t - time
+  * f - freq
+  * BodyBody - body
+  * Body - body
+  * Acc - accl
+  * Gyro - gyro
+  * Gravity - gravity
+  * Mag - magnitude
+  * Jerk - jerk
+  * std - std
+  * mean - mean
 
 Refer code book for column names
 
